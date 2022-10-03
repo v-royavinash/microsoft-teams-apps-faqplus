@@ -7,6 +7,17 @@ products:
 description: FAQ Plus bot is one of the best friendly Q&A bots that bring a human in the loop when it is unable to help with an answer from the knowledge base.
 urlFragment: microsoft-teams-apps-faqplus
 ---
+
+#  Note
+
+<div style="background-color:#efd9fd; vertical-align: middle;border:1px" >
+<span style="color:black;letter-spacing: 1px;">
+Beginning 1 October 2022, you won’t be able to create new QnA Maker resources or knowledge bases. All existing QnA Maker service will be supported till 31st of March, 2025.
+A newer version of the question and answering capability is now available as part of Azure Cognitive Service for Language. We are working on creating FAQ Plus using 
+question answering within the Language Service as part of the new FAQ Plus release.
+</span>
+</div>
+
 #  FAQ Plus App Template
 
 | [Documentation](https://github.com/OfficeDev/microsoft-teams-apps-faqplus/wiki/Home) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-faqplus/wiki/Deployment-Guide) | [Architecture](https://github.com/OfficeDev/microsoft-teams-apps-faqplus/wiki/Solution-Overview) |
