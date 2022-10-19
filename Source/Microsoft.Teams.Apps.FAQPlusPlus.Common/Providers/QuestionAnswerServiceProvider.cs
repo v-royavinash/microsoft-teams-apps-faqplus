@@ -97,7 +97,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers
         /// <param name="createdBy">Created by user.</param>
         /// <param name="conversationId">Conversation id.</param>
         /// <param name="activityReferenceId">Activity reference id refer to activityid in storage table.</param>
-        /// <returns>Operation state as task.</returns>
+        /// <returns>AsyncPageable<BinaryData> Operation state as task.</returns>
         public async Task<Operation<AsyncPageable<BinaryData>>> AddQnaAsync(string question, string combinedDescription, string createdBy, string conversationId, string activityReferenceId)
         {
             RequestContent updateQnasRequestContent = RequestContent.Create(
@@ -122,6 +122,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers
                                                 });
 
             return await this.questionAnsweringAuthoringClient.UpdateQnasAsync(WaitUntil.Started, this.projectName, updateQnasRequestContent);
+            
         }
 
         /// <summary>
