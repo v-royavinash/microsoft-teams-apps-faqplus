@@ -8,12 +8,6 @@ description: FAQ Plus bot is one of the best friendly Q&A bots that bring a huma
 urlFragment: microsoft-teams-apps-faqplus
 ---
 
-#  Note
-
-> Beginning 1st October, 2022, you won’t be able to create new QnA Maker resources or knowledge bases. All existing QnA Maker service will be supported till [31st of March, 2025](https://azure.microsoft.com/en-us/updates/azure-qna-maker-will-be-retired-on-31-march-2025/).
->
-> A newer version of the [custom question and answering](https://azure.microsoft.com/en-us/products/cognitive-services/question-answering/) capability is now available as part of Azure Cognitive Service for Language. We are working on creating a new version of FAQ Plus using question answering within the Language Service as part the upcoming release.
-
 
 #  FAQ Plus App Template
 
